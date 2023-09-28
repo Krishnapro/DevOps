@@ -1,0 +1,2 @@
+## What is Linux?
+Linux is an open source operating system. Just like other operating system (Windows, Mac OS and Android  etc.). An operating system is software that manages all of the hardware resourcess associated with your desktop or laptop.
