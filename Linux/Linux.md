@@ -17,3 +17,34 @@ Linux is an open source operating system. Just like other operating system (Wind
       - Windows Explorer
       - GNOME Shell (the default shell for GNOME desktop environment)
       - KDE Plasma (the default shell for KDE Plasma desktop environment)
+
+## Linux Commands
+1. List command
+   
+   ```
+   ls -> show all the files and folders under a specific folder/directory
+   ```
+   ```
+   ls -a -> show all the file/folder including hidden files
+   ```
+   ```
+   ls -al -> show all the file/folder including hidden files with details information
+   ```
+   ```
+   ls -R -> show all the file/folder in a directory and its subdirectory recursively
+   ```
+
+2. pwd (Print Working Directory)
+   ``` 
+   pwd ->  It's print current working directory
+   ```
+3. cd ( Change Directory)
+   ```
+   cd <folder_name> -> go to under specific folder/directory
+   ```
+   ```
+   cd . -> single(.) means present directory
+   ```
+   ```
+   cd .. -> double(..) means previous diretory
+   ```
