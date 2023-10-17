@@ -48,3 +48,44 @@ Linux is an open source operating system. Just like other operating system (Wind
    ```
    cd .. -> double(..) means previous diretory
    ```
+4. cat (use to concatenate or display files)
+   ```
+   cat <file_name> -> Read/display data of file
+   ```
+   ```
+   cat > <file_name> -> use to create new file
+   ```
+   ```
+   cat <file1> <file2> > <file3> -> it's use to concate multiple file together(i.e- concate file1 and file2 into file3)
+   ```
+   ```
+   cat <file1> | tr a-z A-Z > <file2> ->
+   ```
+5. man (use to give info about any command)
+   ```
+    man <command_name> -> it's give the info about commands
+   ```
+6. tr  (use to translate or delete the character)
+   ```
+   cat <file1> | tr a-z A-Z > <file2> -> it's traslate file1 data to upper case and insert into file2
+   ```
+7. mkdir (make directory)
+   ```
+   mkdir <folder_name> -> use to create new folder/directory
+   ```
+   
+8. touch (crate new file)
+   ```
+   touch <file_name> -> user to create empty new file
+   ```
+9. cp (copy command)
+    ```
+    cp <file_name> <destination> -> use to copy file
+    ```
+10. mv ( move or rename file/directory)
+    ```
+    mv <source_file> <destination_file> - its move to destination file
+    ```
+    ```
+    mv <source_file> <new_file> -> its rename the files
+    ```
