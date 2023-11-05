@@ -69,4 +69,10 @@ Linux is an open source operating system. Just like other operating system (Wind
     - `mv <source_file> <destination_file>` - its move to destination file
     
     - `mv <source_file> <new_file> ` - its rename the files
-    
+14. rm (remove file)
+    - `rm file_name` - remove files
+      -  `-r` - Recursively delete directories and their contents.
+      -  `-f` - Forcefully delete files without asking.
+      -  `-i` - Prompt before deleting each file.
+      -  `-l` - Prompt only once before deleting multiple files.
+      -  `-v` - Verbosely list the files that are being deleted.
