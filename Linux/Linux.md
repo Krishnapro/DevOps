@@ -76,3 +76,29 @@ Linux is an open source operating system. Just like other operating system (Wind
       -  `-i` - Prompt before deleting each file.
       -  `-l` - Prompt only once before deleting multiple files.
       -  `-v` - Verbosely list the files that are being deleted.
+15. df (disk free)
+    - `df` - used to check the capacity and storage details.
+      - `-m` - in megabytes
+      - `-h` - in gigabytes
+16. du (disk usage)
+      - `du` - show the disk usage
+        - `-h` - human readable 
+17. head
+    - `head <file_name>` - display first 10 lines.
+18. tail
+    - `tail <file_name>` - display last 10 lines.
+19. diff
+    - `diff <file1> <file2>` - show the different between two files
+20. locate
+    - `locate <file>` - to find out file.
+21. find
+    - `find <file/folder_name>` - Find a file/folder.
+    - `find <dir_name` - find files inside directory.
+    - `find .-type d` - Show only directory.
+         - `.-type f` - show only files.
+         - `.-type f -name "*.txt"` - Show only files with that specific name.
+         - `.-type f -iname "*.txt"` - Show only files with that specific name - not case sensitive
+         - `.-type f -mmin -20` - Show files which modify less than 20 min ago.
+         - `.-type f -mmin +20` - show files which modify more than 20 min ago.
+         - `.-type f -maxdepth 2` - Will only show 1 folder deep.
+         - `.-size +1k` - will only show file/folder with size of 1kb
