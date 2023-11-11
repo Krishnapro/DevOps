@@ -102,3 +102,17 @@ Linux is an open source operating system. Just like other operating system (Wind
          - `.-type f -mmin +20` - show files which modify more than 20 min ago.
          - `.-type f -maxdepth 2` - Will only show 1 folder deep.
          - `.-size +1k` - will only show file/folder with size of 1kb
+22. chmod (change file mode access)
+    - `chmod 777 <file_name>` - will change file permission access
+23. chown (change owner of file/dir)
+    - `chown <owner_name> <file_name>` - change file owner
+        i.e - `chown root file1.txt` - file1.txt only access by root user
+
+24. grep (search the text in the file)
+    - `grep <text> <file_name>` - search text in files
+      - `-w <text> <file_name>` - search and show whole text 
+      - `-n <text> <file_name>` - show line number of text
+      - `-i <text> <file_name>` - show text without case sensetive
+      - `-c <text> <file_name>` - print the number of match found
+      - `-v <text> <file_name>` - invert the search, so that only show the text that are not with search
+    - `grep -win <text> ./*.txt` - search text in all `.txt` file that is available in current directory
