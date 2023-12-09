@@ -55,6 +55,9 @@ Linux is an open source operating system. Just like other operating system (Wind
 
 10. cp (Copy Command) -
     - `cp <file_name> <destination>` - use to Copy a file.
+    - scp command
+      - `scp <file_name> username@destination_host:/home/folder_addr>` - it's used to copy local to remote server
+      - `scp username@destination_host>:/home/folder/file_name /home/folder/file1` - it's used to copy remote to lcoal 
    
 11. man (use to give info about any command)
    
