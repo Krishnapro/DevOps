@@ -119,3 +119,10 @@ Linux is an open source operating system. Just like other operating system (Wind
       - `-c <text> <file_name>` - print the number of match found
       - `-v <text> <file_name>` - invert the search, so that only show the text that are not with search
     - `grep -win <text> ./*.txt` - search text in all `.txt` file that is available in current directory
+
+### Terminal Shortcut:
+
+- `ctrl+a` - cursor go to at start point
+- `ctrl+e` - cursor go to at end point
+- `ctrl+k` - remove all the word after the cursor
+- `ctrl+u` - remove all the word
