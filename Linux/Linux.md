@@ -126,3 +126,8 @@ Linux is an open source operating system. Just like other operating system (Wind
 - `ctrl+e` - cursor go to at end point
 - `ctrl+k` - remove all the word after the cursor
 - `ctrl+u` - remove all the word
+- `history` - To see all the previous used commands
+
+### others commands
+- `nslookup` - Getting info about DNS server
+    i.e - `nslookup google.com`
