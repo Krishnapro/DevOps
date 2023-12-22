@@ -128,6 +128,11 @@ Linux is an open source operating system. Just like other operating system (Wind
 - `ctrl+u` - remove all the word
 - `history` - To see all the previous used commands
 
-### others commands
-- `nslookup` - Getting info about DNS server
+### Networking commands
+- `nslookup` - To get the IP address of Domain name.
     i.e - `nslookup google.com`
+
+- `netstat` - To check the network status.
+- `hostname` - To check the hostname.
+- `whoami` - To check the current user.
+- `ping google.com` - To check the connectivity
