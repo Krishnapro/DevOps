@@ -12,9 +12,21 @@ A computer network is a system that connects multiple computers and devices to s
    - TCP
    - UDP
    - HTTP
+   - DHCP
+   - SMTP
+   - POP3 & IMAC
+   - SSH
+   - VNC
 
 ## Ports
 A port is a virtual point where network connections start and end. Ports are software-based and managed by a computer's operating system.
+<img src="port_number.png" alt="Port number image">
+
+|Port Number| Process | Uses |
+|:--:|:--:|:--:|
+|80 | HTTP | |
+|443| HTTPs| |
+|3306| MySQl | |
 
 ## IP Address
 IP is a protocol or set of rules for routing and addressing packets of data so they can reach to the correct destination.
@@ -27,6 +39,9 @@ IP is a protocol or set of rules for routing and addressing packets of data so t
 
 ### TCP/IP layer:
 <img src="tcp_ip_model.png" width="550px" height="450px" alt="TCP/IP model">
+
+### DNS (Domain Name system):
+Domain Name System (DNS) is a distributed database that translates domain names into IP addresses.
 
 
 
