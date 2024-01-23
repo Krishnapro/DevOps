@@ -43,6 +43,8 @@ IP is a protocol or set of rules for routing and addressing packets of data so t
 ### DNS (Domain Name system):
 Domain Name System (DNS) is a distributed database that translates domain names into IP addresses.
 
+<img src="dns_diagram.png" width="600px" alt="DNS sever image">
+
 
 
 
