@@ -45,6 +45,17 @@ Domain Name System (DNS) is a distributed database that translates domain names 
 
 <img src="dns_diagram.png" width="600px" alt="DNS sever image">
 
+### <a href="https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/">UDP (User Datagram Protocol)</a>:
+The User Datagram Protocol (UDP) is a communication protocol primarily used for fast, connectionless transmission of data over networks.
+
+- UDP header fields include:
+  - Source port
+  - Destination port
+  - Packet length (header and data)
+  - checksum 
+
+
+
 
 
 
