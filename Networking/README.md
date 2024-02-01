@@ -37,7 +37,7 @@ IP is a protocol or set of rules for routing and addressing packets of data so t
 
 <img src="osi_model.png" alt="osi model image">
 
-### TCP/IP layer:
+### TCP/IP Model:
 <img src="tcp_ip_model.png" width="550px" height="450px" alt="TCP/IP model">
 
 ### DNS (Domain Name system):
@@ -54,6 +54,8 @@ The User Datagram Protocol (UDP) is a communication protocol primarily used for 
   - Packet length (header and data)
   - checksum 
 
+### <a href="https://www.javatpoint.com/tcp" target="_blank">TCP (Trasmission control protocol)</a>:
+TCP is a transport layer and connection oriented protocol that means its establish the connection befor start communication between devices.
 
 
 
