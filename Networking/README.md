@@ -31,6 +31,8 @@ A port is a virtual point where network connections start and end. Ports are sof
 ## IP Address
 IP is a protocol or set of rules for routing and addressing packets of data so they can reach to the correct destination.
 
+<img src="ipv6.png" alt="Ipv6 version image">
+
 ## Structure of Network
 ### <a href="https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/">OSI Model</a> (Open system Interconnection):
 *OSI model is a conceptual framework that divices network communications into seven layers.*
