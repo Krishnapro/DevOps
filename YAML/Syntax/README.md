@@ -1,12 +1,12 @@
 ## Key-value pair
 
-```
+```yaml
 name: Krishna
 1: "I'm software Engineer"
 ```
 ## List
 
-```
+```yaml
 - Apple
 - mango
 - Banana

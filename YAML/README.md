@@ -2,7 +2,7 @@
 YAML is human readable data serialization language that is used for writing configuration files. YAML file use a `.yml` or `.yaml` extenstion.
 
 Eg.
-```
+```yaml
 name: Krishna
 title: Software Engineer
 address:
