@@ -18,3 +18,16 @@ docker images
 docker pull <image name>
 //Eg: docker pull mysql
 ```
+- To check all the running images
+```bash
+docker ps
+```
+- To see all the container list 
+  
+```bash
+docker container ls
+```
+- Attached bash cell to running container
+```bash
+docker exec -it <container_id> bash
+```
