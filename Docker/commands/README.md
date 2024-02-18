@@ -81,8 +81,15 @@ docker commit -m "commit message" <container-id> <imagen-name:version>
 ```bash
 docker images -q
 ```
-- To delete all the images 
+- To delete all the images at once
 ```bash
 docker rmi $(docker images -q)
 ```
+- Creating our own image and container
+```bash
+step 1 - create Docker file (and write comand)
+step 2 - docker build -t <image-name:verison> <path of docker file>
+step 3 - docker run <image-name>
+```
+
 

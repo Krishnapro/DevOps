@@ -1,0 +1,3 @@
+FROM ubuntu
+CMD ["echo", "Hello my name is krishna create own images"]
+
