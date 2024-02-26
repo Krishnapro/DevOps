@@ -9,6 +9,9 @@ Docker is a container platform that allows you to build,test and deploye applica
 
 ## Architechture of Docker
 
-Docker user client-server architechture.The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon
+Docker user client-server architechture.The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon.
 
 <img src="docker_architechture_image.png">
+
+### Docker Daemon:
+Docker daemon (`dockerd`) listen for Docker API requests and manage docker objects such as images, containers, networks and volumes. A Daemon can also communicate with other daemon to manage docker services.
