@@ -15,3 +15,13 @@ Docker user client-server architechture.The Docker client talks to the Docker da
 
 ### Docker Daemon:
 Docker daemon (`dockerd`) listen for Docker API requests and manage docker objects such as images, containers, networks and volumes. A Daemon can also communicate with other daemon to manage docker services.
+
+### Docker Client:
+Docker client is command line interface that allow users to interact with Docker. When you use commands such as `docker run`, the client sends these commands to `dockerd` which carries then out.
+
+### Docker registry:
+A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker looks for images on Docker Hub by default.
+
+### Docker Objects:
+When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects. This section is a brief overview of some of those objects.
+
