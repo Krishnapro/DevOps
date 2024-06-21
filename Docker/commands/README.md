@@ -91,5 +91,13 @@ step 1 - create Docker file (and write comand)
 step 2 - docker build -t <image-name:verison> <path of docker file>
 step 3 - docker run <image-name>
 ```
-
+- Install Scout on Docker (Scan project vulnerability)
+```bash
+# First download the script 
+step 1 - curl -fsSL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh -o install-scout.sh
+# Second run the script 
+step 2 - sh install-scout.sh
+# Now Scout is install you can check your Scout version
+step 3 - docker scout verison
+```
 
